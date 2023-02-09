@@ -190,7 +190,7 @@ nav img{
     nav img{
         width: 90px;
         position: relative;
-        left: 270px;
+        left: 4px;
         top: 0px;
         opacity: 0.8;
     }
@@ -204,7 +204,8 @@ nav img{
         display: inline-block;
         padding: 2px 6px;
         position: relative;
-        top: 15px;
+        top: 25px;
+        left: 0px;
     }
     nav{
         display: flex;
