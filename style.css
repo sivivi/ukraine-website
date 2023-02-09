@@ -176,7 +176,7 @@ nav img{
     width: 100%;
 }
 
-@media(max-width: 900px){
+@media(max-width: 1800px){
     .text-box h1{
         margin: 10px 0 40px;
         font-size: 26px;
