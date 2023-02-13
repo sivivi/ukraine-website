@@ -137,6 +137,8 @@ nav img{
 }
 .statistics-diagrams img{
     width: 300px;
+    padding: 40px;
+    position: relative;
 }
 
 .donate{
