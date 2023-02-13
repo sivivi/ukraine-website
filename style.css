@@ -266,7 +266,8 @@ nav img{
         display: none;
     }
     .statistics-diagrams img{
-        width: 360px;
+        width: 355px;
+        padding: 0px;
     }
     
     .donate{
