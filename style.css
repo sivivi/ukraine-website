@@ -113,25 +113,30 @@ nav img{
 }
 
 .statistics{
+    display: flex;
     background-color:rgba(180, 180, 180, 0.425)
 }
 .statistics-diagrams{
     display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-    background-color:rgb(194, 236, 243);
-
+    gap: 4rem;
 }
-.statistics h1{
-    font-size: 150px;
+.statistic-card {
+    background-color:rgba(74, 80, 82, 0.829);
+    padding: 1Irem;
+}
+.statistic-card h1 {
+    font-size: 40px;
+    padding: 1rem;
+}
+.statistics-title h1{
+    font-size: 120px;
     font-weight: 500;
     color: #000;
     text-align: center;
-    margin: 15px 100px;
+    margin: 15px 20px;
 }
 .statistics-diagrams img{
-    width: 400px;
+    width: 300px;
 }
 
 .donate{
@@ -143,25 +148,26 @@ nav img{
     color: #000;
     text-align: center;
     margin: 15px 100px;
+    padding: 3rem;
 }
 .donate p{
     font-size: 36px;
     font-weight: 100;
     color: #000;
     text-align: center;
-    background-color:rgba(21, 170, 158, 0.103);
+    padding: 3rem;
 }
-.donate li a{
-    color: #e74c3c;
-    text-decoration: none;
-    font-size: 60px;
+.donate-card img {
+    width: 400px;
 }
-.donate li{
-    list-style: none;
-    display: inline-block;
-    padding: 20px 20px;
+.donate-cards {
+    display: flex;
+    flex-direction: column;
     position: relative;
-    top: 0px;
+    left: 650px;
+}
+.donate-card {
+    padding: 2rem;
 }
 .donate li ::after{
     content: "";
@@ -179,12 +185,12 @@ nav img{
 @media(max-width: 1800px){
     .text-box h1{
         margin: 10px 0 40px;
-        font-size: 26px;
+        font-size: 36px;
         color: #fff;
     }
     .text-box p{
         margin: 10px 0 40px;
-        font-size: 15px;
+        font-size: 23px;
         color: rgb(226, 226, 226);
     }
     nav img{
@@ -233,60 +239,63 @@ nav img{
         background-size: cover;
     }
     
-    .statistics{
-        background-color:rgba(180, 180, 180, 0.425)
-    }
     .statistics-diagrams{
-        display: block;
-        padding: 10% -10%;
-        justify-content: none;
-        align-items: center;
-        background-color:rgb(194, 236, 243);
-    
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
     }
-    .statistics img{
-        margin: 10px 9px;
+    .statistic-card {
+        background-color:rgba(74, 80, 82, 0.829);
+        padding: 1rem;
     }
-    .statistics h1{
-        font-size: 60px;
+    .statistic-card h1 {
+        font-size: 35px;
+        padding: 1rem;
+    }
+    .statistics-title h1{
+        font-size: 50px;
         font-weight: 500;
         color: #000;
         text-align: center;
         margin: 15px 100px;
     }
+    .statistics-title {
+        background-color: rgba(180, 180, 180, 0.425);
+        display: none;
+    }
     .statistics-diagrams img{
-        width: 150px;
+        width: 360px;
     }
     
     .donate{
         background-color:rgba(21, 170, 158, 0.411);
     }
     .donate h1{
-        font-size: 40px;
+        font-size: 50px;
         font-weight: 500;
         color: #000;
         text-align: center;
-        margin: 15px 10px;
+        margin: 10px 10px;
+        padding: 2rem;
     }
     .donate p{
         font-size: 26px;
-        margin: 10px 0px;
         font-weight: 100;
         color: #000;
         text-align: center;
-        background-color:rgba(21, 170, 158, 0.103);
+        padding: 1rem;
     }
-    .donate li a{
-        color: #e74c3c;
-        text-decoration: none;
-        font-size: 25px;
+    .donate-card img {
+        width: 200px;
     }
-    .donate li{
-        list-style: none;
-        display: inline-block;
-        padding: 10px 10px;
+    .donate-cards {
+        display: flex;
+        flex-direction: column;
         position: relative;
-        top: 0px;
+        left: 60px;
+    }
+    .donate-card {
+        padding: 2rem;
     }
     .donate li ::after{
         content: "";
