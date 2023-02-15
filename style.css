@@ -103,11 +103,14 @@ nav img{
     background-size: cover;
 }
 .information-text p{
+    display: flex;
+    padding: 3rem 10rem;
     font-size: 36px;
     font-weight: 100;
-    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(253, 253, 253);
     text-align: center;
-    background-image: linear-gradient(rgba(63, 63, 63, 0.747),rgba(54, 54, 54, 0.651)),url(images/5338.webp);
+    background-image: linear-gradient(rgba(63, 63, 63, 0.747),rgba(20, 20, 20, 0.651));
     background-position: center;
     background-size: cover;
 }
